@@ -1,9 +1,9 @@
 class Specy < Formula
   desc     "Interactive editor for the .spec structure-declaration DSL"
   homepage "https://gitlab.com/defsquare/specy/cli"
-  url      "https://dl.specy-cli.defsquare.com/specy/specy-0.1.1-darwin-arm64.tar.gz"
-  version  "0.1.1"
-  sha256   "aea4687d110dbb2a8ecfb1799e7abea15710d75eaa3fae0b85a3f7f133f70ddd"
+  url      "https://dl.specy-cli.defsquare.com/specy/specy-0.1.2-darwin-arm64.tar.gz"
+  version  "0.1.2"
+  sha256   "bb436ac45a8bb0e419964d9a250cf2b39dd625e54a69c835764da2a150c1cd5e"
   license  :cannot_represent
 
   depends_on arch: :arm64
