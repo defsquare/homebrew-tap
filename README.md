@@ -16,10 +16,10 @@ brew install specy
 > *"Refusing to load formula … from untrusted tap"*, run `brew trust defsquare/specy`
 > once, then re-run `brew install specy`.
 
-Then open a spec in the editor:
+Then open a spec in the editor (targets a directory, default: current dir):
 
 ```bash
-specy edit todolist.spec
+specy edit .
 ```
 
 Update to the latest release with:
