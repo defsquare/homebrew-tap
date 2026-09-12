@@ -21,11 +21,11 @@ Update to the latest releases with `brew upgrade`.
 ## Tools
 
 - [**datagraph**](https://gitlab.com/defsquare/datagraph) — explore a JSON
-  document as an interactive graph of records and references. Universal macOS
-  binary (Apple silicon + Intel).
+  document as an interactive graph of records and references. macOS **arm64**
+  binary; on an Intel Mac, build from source (see its README).
 - [**specy**](https://gitlab.com/defsquare/specy/cli) — interactive editor for
   the `.spec` structure-declaration DSL, self-contained macOS **arm64** binary
-  (no JDK or Clojure required). The formula refuses other platforms cleanly.
+  (no JDK or Clojure required). Both formulas refuse other platforms cleanly.
 
 ## Do not hand-edit the formulas
 
