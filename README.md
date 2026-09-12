@@ -35,7 +35,7 @@ release. Fix the template in the tool's own repository instead:
 - `datagraph.rb` is rendered from `Formula/datagraph.rb.tmpl` in
   [defsquare/datagraph](https://gitlab.com/defsquare/datagraph) and pushed
   here by that repository's release script (`bin/release.sh`), which uploads
-  a versioned tarball to a GitLab Release and pins its `url` + `sha256` here.
+  a versioned tarball to Cloudflare R2 and pins its `url` + `sha256` here.
 - `specy.rb` is rendered and pushed by specy's release script
   (`bin/release.sh` in its main repository), which uploads a versioned tarball
   to Cloudflare R2 and pins its `url` + `sha256` here.
