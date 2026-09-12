@@ -20,7 +20,7 @@ Update to the latest releases with `brew upgrade`.
 
 ## Tools
 
-- [**datagraph**](https://github.com/defsquare/data-graph) — explore a JSON
+- [**datagraph**](https://github.com/defsquare/datagraph) — explore a JSON
   document as an interactive graph of records and references. Universal macOS
   binary (Apple silicon + Intel).
 - [**specy**](https://gitlab.com/defsquare/specy/cli) — interactive editor for
@@ -33,7 +33,7 @@ Update to the latest releases with `brew upgrade`.
 release. Fix the template in the tool's own repository instead:
 
 - `datagraph.rb` is rendered from `Formula/datagraph.rb.tmpl` in
-  [defsquare/data-graph](https://github.com/defsquare/data-graph) and pushed
+  [defsquare/datagraph](https://github.com/defsquare/datagraph) and pushed
   here by that repository's release workflow on every `v*` tag.
 - `specy.rb` is rendered and pushed by specy's release script
   (`bin/release.sh` in its main repository), which uploads a versioned tarball
