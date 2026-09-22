@@ -7,6 +7,7 @@ brew install --cask defsquare/tap/codegraph   # Codegraph.app + the `codegraph` 
 brew install defsquare/tap/codegraph-java     # Codegraph extractor for Java (macOS, Linux)
 brew install defsquare/tap/codegraph-csharp   # Codegraph extractor for C# (macOS, Linux)
 brew install defsquare/tap/codegraph-elixir   # Codegraph extractor for Elixir (Apple silicon, Linux x64)
+brew install defsquare/tap/codegraph-typescript  # Codegraph extractor for TypeScript (npm package on Homebrew's node)
 brew install defsquare/tap/datagraph          # explore a JSON document as an interactive graph
 brew install defsquare/tap/specy              # interactive editor for the .spec DSL
 ```
@@ -28,8 +29,8 @@ Update to the latest releases with `brew upgrade`.
   dependency navigator over multi-language code models. The cask installs
   `Codegraph.app` (signed and notarized, Apple silicon and Intel) and the
   single-executable `codegraph` CLI it carries; each extractor is its own
-  formula, a prebuilt binary per platform. The TypeScript extractor is
-  `npx codegraph-typescript` (npm), not a formula.
+  formula: a prebuilt binary per platform, except the TypeScript one, which
+  installs the `codegraph-typescript` npm package on Homebrew's `node`.
 - [**datagraph**](https://github.com/defsquare/datagraph) — explore a JSON
   document as an interactive graph of records and references. macOS **arm64**
   binary; on an Intel Mac, build from source (see its README).
